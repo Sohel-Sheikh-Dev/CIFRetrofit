@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
 
-    @GET("top-headlines?country=de&category=business&apiKey="+BASE_API)
+    @GET("movie/popular?api_key="+BASE_API)
     Call<ApiResponse> getPosts();
 
 }

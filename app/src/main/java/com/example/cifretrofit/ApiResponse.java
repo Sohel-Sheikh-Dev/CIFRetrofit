@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ApiResponse {
 
-    @SerializedName("articles")
+    @SerializedName("results")
     public ArrayList<Model> posts;
 
     public ApiResponse(ArrayList<Model> posts) {
